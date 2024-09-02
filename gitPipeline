@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello UI') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+                    stage('Topic') {
+            steps {
+                echo 'This Automation'
+            }
+                    }
+                    stage('Description') {
+            steps {
+                echo 'Pipeline Testing '
+            }
+                    }
+                    stage('Result') {
+            steps {
+                echo 'Success'
+            }
+        }
+    }
+}
